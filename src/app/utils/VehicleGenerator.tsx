@@ -12,6 +12,7 @@ export const generateRandomCar = (): Car => {
     brand: brands[Math.floor(Math.random() * brands.length)],
     color: colors[Math.floor(Math.random() * colors.length)]
   };
+  
 };
 
 export const generateRandomTruck = (): Truck => {
